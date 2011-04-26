@@ -1,0 +1,59 @@
+a. Pradyumna Lakshmipuram
+	4/24/2011
+	Csc 2310
+	Basic Clock Program
+
+b. This program is a basic construction of altering time through user inputs. 
+
+c. -------- Instructions -----------
+
+	1.) Start the program
+	2.) Enter desired function
+	3.) Quit when finished
+
+d.Few examples of how the program is run:
+
+run:
+Welcome to the clock testing program.
+
+Commands:
+-----------
+a = advance (increase time by one second)
+c = calibrate (set to current time)
+q = quit
+r = reset (set hours, minutes, and second to zero)
+s = set (allow user to set time)
+t = toggle (switch from 24-hour clock to 12-hour clock, or vice-versa)
+
+The time is now 00:00:00
+Enter command (a, c, q, r, s, or t):
+a
+The time is now 0:0:1
+
+Enter command (a, c, q, r, s, or t):
+c
+The time is now 14:53:38
+
+Enter command (a, c, q, r, s, or t):
+r
+The time is now 0:0:0
+
+Enter command (a, c, q, r, s, or t):
+s
+
+Please enter the hour of the day: 
+21
+
+Please enter the minutes:
+23
+
+Please enter the seconds:
+43
+The time is now 21:23:43
+
+Enter command (a, c, q, r, s, or t):
+t
+The time is now 9:23:43
+
+Enter command (a, c, q, r, s, or t):
+q
